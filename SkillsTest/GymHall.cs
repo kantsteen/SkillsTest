@@ -34,7 +34,6 @@ namespace SkillsTest
         }
 
 
-
         public void RegisterBooking(Booking booking)
         {
             _bookings.Add(booking.ID, booking);
@@ -61,45 +60,9 @@ namespace SkillsTest
         }
 
 
-
-
-        public bool Validate()
-        {
-
-
-        }
-
-
-
-
         public override string ToString()
         {
             return $"ID: {ID}, gymnastiksal: {Name}, adresse: {Address}, tlf: {Phone}, email: {Email}";
         }
-
-
-
-
-
-
-
-
-
-
-
-
     }
-
-
-
-    
-
-
-
-
-
-
-
-
-
 }
